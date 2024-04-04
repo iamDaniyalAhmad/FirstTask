@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,287 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wave-header{
+  min-height: 140vh;
+  width: 100%;
+  /* background-image: linear-gradient(95deg, rgba(91, 83, 249, 1), rgba(172, 113, 214, 1), rgba(255, 142, 87, 1)); */
+  background-image: linear-gradient(115deg,#765dee,#ef8970);
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+svg{
+  position: absolute;
+  bottom: 0;
+  left:  0;
+}
+
+.navbar-brand img{
+  width: 100%;
+  height: 100%;
+}
+
+.main-section{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-section h1{
+  font-size: 4em;
+  color: #fff;
+  font-weight: 700;
+}
+
+.main-section p{
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: 300;
+  margin: 10px 0 30px 0;
+  
+}
+
+.main-section button{
+  font-size: 1em;
+  color: #fff;
+  padding: 8px 20px;
+  background: linear-gradient(to right, #fc65c3 , #c877b0);
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-bottom: 70px;
+}
+
+.main-section button img{
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  margin-bottom: 3px;
+}
+
+.image-container {
+  display: flex; 
+  margin-top: -70px;
+}
+
+
+.image {
+  width: 40%;
+  padding: 5px;
+  margin-top: 100px;
+}
+
+.image-2{
+  width: 40%;
+  margin-top: 240px;
+  margin-left: -60px;
+}
+
+.boldText{
+  font-weight: 500;
+}
+
+.boldHeading{
+  font-weight: 700;
+  font-size: 2.1em;
+}
+
+.horizontal{
+  margin-left: 60px;
+}
+.horizontal-image{
+  margin-top: -25px;
+}
+
+.vertical{
+  margin-left: 475px;
+  margin-top: -80px;
+}
+
+.aboutButton{
+  background-image: linear-gradient(115deg,#765dee,#ef8970);
+  color: white;
+  padding: 8px 28px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 10px;
+}
+
+.aboutButton img{
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  margin-bottom: 3px;
+}
+
+.featureSection{
+  margin-bottom: -1900px;
+}
+
+.featureHeading{
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+.feature{
+  margin-top: 200px;
+  padding-top: 200px;
+  background-color: #f3f2ff;
+  overflow: hidden;
+}
+
+.feature .col-md-12{
+  margin-left: 50px;
+}
+
+.features{
+  background-color: white;
+  border-radius: 10px;
+  height: 90%;
+}
+
+
+.skill{
+  margin-top: 100px;
+}
+
+.skill h3{
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.container-card{
+  background-color: #f3f2ff;
+  width: 100%;
+  height: 100%;
+  margin-top: -30px;
+}
+.feature-card{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.feature-card h4{
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.feature-images{
+  background-color: #785eeb;
+  border-radius: 08px;
+  height: 70px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  height: 100%;
+  background-image: linear-gradient(115deg,#765dee,#ef8970);
+}
+
+.contactSection{
+  margin-bottom: -2590px;
+}
+
+.contact-details{
+  padding-top: 200px;
+  background-image: url(./assets//waves.png);
+  background-position-y: 280px;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.contact-images{
+  background-color: #785eeb;
+  border-radius: 08px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-card{
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-card h5{
+font-weight: bold;
+}
+
+.contact-details .col-md-6 button{
+  font-size: 1em;
+  color: #fff;
+  padding: 8px 20px;
+  background: linear-gradient(to right, #fc65c3 , #9e67dc);
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-bottom: 70px;
+}
+
+.contact-details .col-md-6 button img{
+  
+width: 20px;
+height: 20px;
+margin-left: 2px;
+margin-bottom: 3px;
+}
+
+.contact-details h4{
+  font-size: 2.1em;
+  color: white;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.contact-details .para{
+  font-size: 0.9em;
+  color: white;
+  margin-left: 20px;
+  text-align: justify;
+  margin-right: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-details button{
+  margin-left: 20px;
 }
