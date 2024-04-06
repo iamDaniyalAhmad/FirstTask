@@ -1,48 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
-
-
-
-
-
 
 
 body{
@@ -59,26 +14,25 @@ body{
 }
 
 .wave-header{
-  min-height: 140vh;
+  height: 100%;
   width: 100%;
-  /* background-image: linear-gradient(95deg, rgba(91, 83, 249, 1), rgba(172, 113, 214, 1), rgba(255, 142, 87, 1)); */
   background-image: linear-gradient(115deg,#765dee,#ef8970);
   position: relative;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 200px;
 }
 
-
-
-
-svg{
+.svg-wave{
   position: absolute;
   bottom: 0;
   left:  0;
 }
 
+.navbar-brand{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 .navbar-brand img{
   width: 100%;
   height: 100%;
@@ -100,11 +54,10 @@ svg{
 }
 
 .main-section p{
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #fff;
   font-weight: 300;
-  margin: 10px 0 30px 0;
-  
+  margin: 10px 250px 30px 300px;
 }
 
 .main-section button{
@@ -180,18 +133,15 @@ svg{
 }
 
 .featureSection{
-  margin-bottom: -1900px;
+  margin-bottom: -30px;
 }
 
 .featureHeading{
   font-weight: bold;
   font-size: 40px;
-
 }
 
 .feature{
-  margin-top: 200px;
-  padding-top: 200px;
   background-color: #f3f2ff;
   overflow: hidden;
 }
@@ -203,7 +153,7 @@ svg{
 .features{
   background-color: white;
   border-radius: 10px;
-  height: 90%;
+  height: 100%;
 }
 
 
@@ -214,6 +164,13 @@ svg{
 .skill h3{
   font-weight: bold;
   font-size: 2.3em;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.skill-para p{
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 .container-card{
@@ -250,11 +207,11 @@ svg{
 }
 
 .contactSection{
-  margin-bottom: -2590px;
+  margin-bottom: -150px;
 }
 
 .contact-details{
-  padding-top: 200px;
+  padding-top: 100px;
   background-image: url(./assets//waves.png);
   background-position-y: 280px;
   background-repeat: no-repeat;
@@ -306,6 +263,7 @@ margin-bottom: 3px;
   color: white;
   margin-left: 20px;
   margin-top: 40px;
+  margin-right: 60px;
 }
 
 .contact-details .para{
@@ -347,7 +305,6 @@ margin-bottom: 3px;
 .services-card button{
   width: 80%;
   border-radius: 25px;
-  /* border-color: rgba(red, green, blue, alpha); */
 }
 
 .client{
@@ -369,6 +326,10 @@ margin-bottom: 3px;
   align-items: end;
   justify-content: end;
   
+}
+
+.portfolioButton .aboutButton{
+  margin-bottom: 20px;
 }
 
 .portfolioSection img{
@@ -449,28 +410,25 @@ margin-bottom: 3px;
   margin-bottom: 80px;
 }
 .blog{
-  margin-top: 200px;
+  margin-top: 100px;
 }
+
 
 .blogSection{
   margin-bottom: 200px;
 }
 
 .blog-wave{
-  height: 478px;
+  height: 490px;
   width: 100%;
   background-image: linear-gradient(115deg,#765dee,#ef8970);
   position: relative;
   
 }
 
-.blog-section{
-  width: 100%;
-}
 
-.blog h6{
-  padding-top: 175px;
-  padding-bottom: 25px;
+.blog .main-heading{
+  margin-top: -300px;
   font-weight: bold;
   color: white;
   font-size: 2em;
@@ -483,10 +441,11 @@ margin-bottom: 3px;
 }
 
 .blog-section{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin-top: 39px;
 }
 
 
@@ -573,4 +532,200 @@ margin-bottom: 3px;
 
 .footer h6{
   font-weight: bold;
+}
+
+.footer-list{
+  list-style: none;
+  margin-top: 10px;
+  font-size: 0.9em;
+  opacity: 0.5;
+}
+
+.footer-lists{
+  list-style: none;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+  .main-section{
+    height: 400px;
+    background: url(./assets/mobile-wave.png);
+  }
+  .main-section h1{
+    margin-top: 150px;
+    font-size: 2em;
+  }
+  .main-section p{
+    font-size: 0.9em;
+    margin: 20px;
+    text-align: center;
+  }
+  .main-section button{
+    margin-top: 15px;
+  }
+  .boldHeading{
+    font-size: 1.5em;
+  }
+
+  .horizontal-image{
+    height: 250px;
+    width: 300px;
+    margin-top: -33px;
+  }
+  .vertical-image{
+    height: 220px;
+    width: 280px;
+    margin-left: -20px;
+    
+  }
+  .horizontal{
+    margin-left: 30px;
+  }
+  .vertical{
+      margin-left: 310px;
+      margin-top: -110px;
+  }
+  .skill h3{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+  }
+  .skill-para p{
+    margin: 0;
+    font-size: 0.8em;
+  }
+  .funnel-image img{
+    width: 100%;
+    height: 100%;
+  }
+  .feature{
+    margin: 0;
+    /* margin-top: 10px; */
+  }
+  .featureSection{
+    margin-bottom: -5px;
+    /* margin-top: 10px; */
+  }
+  .featureHeading{
+    margin-top: 60px;
+  }
+  .feature-gape{
+    margin: 10px;
+    margin-right: 10px;
+  }
+  .contactSection{
+    margin-bottom: 0px;
+  }
+ .contact-details{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+ }
+  .contact-details h4{
+    margin: 0;
+    font-size: 1.4em;
+  }
+
+  .contact-details .para{
+    margin: 0px;
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+
+  .contact-details button{
+    margin: 0px;
+    margin-top: 40px;
+  }
+
+  .contact-card{
+    margin: 0;
+    border-radius: 8px;
+  }
+  .services{
+    padding-bottom: 0;
+  }
+  .services h5{
+    font-size: 2em;
+  }
+  .services-card{
+    margin: 10px;
+  }
+
+  .services-card button{
+    margin: 15px;
+  }
+
+  .client{
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 70px;
+  }
+  .client img{
+    width: 30%;
+    height: 50%;
+    margin-right: 15px;
+    
+  }
+  .portolios{
+    margin-top: 0;
+  }
+  .portolios h6{
+    font-size: 2em;
+    margin-bottom:30px;
+  }
+  .portfolioButton .aboutButton{
+    width: 100%;
+  }
+
+  .portfolioSection .cards{
+    width: 80%;
+  }
+  .blog .main-heading{
+    margin-top: -180px;
+    font-size: 1.8em;
+  }
+  .card1{
+    margin-top: 82px;
+  }
+  .card2{
+    display: none;
+  }
+  .card3{
+    display: none;
+  }
+  .forms .main-heading{
+    padding: 0;
+    font-size: 1.4em;
+  }
+  .forms .para{
+    padding-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .form-content h6{
+    padding-bottom: 20px;
+  }
+  .footer-button .aboutButton{
+    display: none;
+    margin-bottom: 10px;
+  }
+  .footer-services{
+    flex-direction: column;
+  }
+
+  .footer-services div{
+    margin-bottom: 30px;
+  }
+
+  .social-media{
+    margin-bottom: 0 !important;
+  }
+  .footer-paragraph{
+    font-size: 0.7em;
+    opacity: 0.5;
+    margin-top: 50px;
+  }
 }

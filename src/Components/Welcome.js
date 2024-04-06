@@ -37,7 +37,6 @@ const Welcome = () => {
             <img src={image3} alt="" srcset="" className="horizontal" />
             <img src={image1}  alt="" className="horizontal-image"/>
             <img src={image4} alt="" className="vertical"/>
-           
             </div>
             <div className="image-2">
             

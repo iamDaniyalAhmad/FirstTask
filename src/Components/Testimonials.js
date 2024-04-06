@@ -13,8 +13,24 @@ const Testimonials = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3
-      };
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            }
+        ]
+    };
   return (
    <>
    
@@ -118,54 +134,7 @@ const Testimonials = () => {
                 </h6>
                 
             </div>
-            <div className="col-lg-3 testimonial-card  shadow ">
-                <div className='imageSection'>
-                    <img src={user1} className='userImage' alt="" />
-                    <div>
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur. Et adipiscing dolor sapien arcu malesuada semper. Egestas purus nunc at velit erat dignissim</p>
-                <h6>Maria Bend, Director <span className='text-end'>Read more</span>
-                </h6>
-                
-            </div>
-            <div className="col-lg-3 testimonial-card  shadow">
-                <div className='imageSection'>
-                    <img src={user2} className='userImage' alt="" />
-                    <div>
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur. Et adipiscing dolor sapien arcu malesuada semper. Egestas purus nunc at velit erat dignissim</p>
-                <h6>Maria Bend, Director <span>Read more</span>
-                </h6>
-                
-            </div>
-            <div className="col-lg-3 testimonial-card  shadow">
-                <div className='imageSection'>
-                    <img src={user3} className='userImage' alt="" />
-                    <div>
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    <img src={star} className='star' alt="" />
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur. Et adipiscing dolor sapien arcu malesuada semper. Egestas purus nunc at velit erat dignissim</p>
-                <h6>Maria Bend, Director <span>Read more</span>
-                </h6>
-                
-            </div>
+           
             </Slider>
             
         </div>

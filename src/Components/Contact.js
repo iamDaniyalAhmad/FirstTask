@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="container">
                 <div className="row contact-details">
                     <div className="col-md-6">
-                        <h4>Our Bespoke Website <br/> Include The Following</h4>
+                        <h4>Our Bespoke Website  Include The Following</h4>
                         <p className='para'> Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus vulputate aenean aliquam accumsan vestibulum in sit Blandit sodales lacus vulputate aenean aliquam accumsan vestibulum in sit m accumsan ipsum</p>
                         <button>CONTACT US<img src={arrow} alt="" /> </button>
                     </div>
