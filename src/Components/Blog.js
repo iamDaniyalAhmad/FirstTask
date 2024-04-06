@@ -18,7 +18,7 @@ const Blog = () => {
             <p class="card-text">Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus vulputate aen dolor sit amet conss ...</p>
             <div className='date'>
               <p>25.01.2024</p>
-              <p>Read more</p>
+              <a href="">Read more</a>
             </div>
           </div>
         </div>
@@ -29,7 +29,8 @@ const Blog = () => {
             <p class="card-text">Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus vulputate aen dolor sit amet conss ...</p>
             <div className='date'>
               <p>25.01.2024</p>
-              <p>Read more</p>
+              <a href="">Read more</a>
+              {/* <p>Read more</p> */}
             </div>
           </div>
         </div>
@@ -40,7 +41,7 @@ const Blog = () => {
             <p class="card-text">Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus vulputate aen dolor sit amet conss ...</p>
             <div className='date'>
               <p>25.01.2024</p>
-              <p>Read more</p>
+              <a href="">Read more</a>
             </div>
           </div>
         </div>

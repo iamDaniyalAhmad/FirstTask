@@ -50,7 +50,7 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur. Et adipiscing dolor sapien arcu malesuada semper. Egestas purus nunc at velit erat dignissim</p>
-                <h6>Maria Bend, Director <span className='text-end'>Read more</span>
+                <h6>Maria Bend, Director <span className='text-end'><a href="">Read more</a></span>
                 </h6>
                 
             </div>
@@ -66,7 +66,7 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur. Et adipiscing dolor sapien arcu malesuada semper. Egestas purus nunc at velit erat dignissim</p>
-                <h6>Maria Bend, Director <span>Read more</span>
+                <h6>Maria Bend, Director <span><a href="">Read more</a></span>
                 </h6>
                 
             </div>
@@ -82,7 +82,7 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur. Et adipiscing dolor sapien arcu malesuada semper. Egestas purus nunc at velit erat dignissim</p>
-                <h6>Maria Bend, Director <span>Read more</span>
+                <h6>Maria Bend, Director <span><a href="">Read more</a></span>
                 </h6>
                 
             </div>

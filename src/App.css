@@ -547,6 +547,10 @@ margin-bottom: 3px;
   font-size: 0.9em;
 }
 
+a{
+  color : rgb(200, 123, 171);
+}
+
 
 @media screen and (max-width: 600px) {
  
