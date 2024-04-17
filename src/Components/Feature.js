@@ -50,7 +50,7 @@ const Feature = () => {
 		</div>
 		
 	</div>
-{/* </div> */}
+
 </div>
 </div>
  
